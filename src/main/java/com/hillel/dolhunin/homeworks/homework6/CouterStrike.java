@@ -7,8 +7,9 @@ public class CouterStrike {
 
         Scanner scanner = new Scanner(System.in);
 
-        double sumTeam1 = 0;
-        double sumTeam2 = 0;
+        int sumTeam1 = 0;
+        int sumTeam2 = 0;
+        final double COEF = 5;
 
         String teamName1 = scanner.nextLine();
 
@@ -44,7 +45,7 @@ public class CouterStrike {
             System.out.println("Помилка! Будь-ласка, введіть число");
         }
         scanner.nextLine();
-        double averageScoreTeam1 = sumTeam1 / 5;
+        double averageScoreTeam1 = sumTeam1 / COEF;
         System.out.println(averageScoreTeam1);
 
         String teamName2 = scanner.nextLine();
@@ -81,7 +82,7 @@ public class CouterStrike {
             System.out.println("Помилка! Будь-ласка, введіть число");
         }
         scanner.nextLine();
-        double averageScoreTeam2 = sumTeam2 / 5;
+        double averageScoreTeam2 = sumTeam2 / COEF;
         System.out.println(averageScoreTeam2);
 
         if (averageScoreTeam1 > averageScoreTeam2) {
