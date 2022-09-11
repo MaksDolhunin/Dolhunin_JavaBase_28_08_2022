@@ -47,8 +47,6 @@ public class CouterStrike {
         double averageScoreTeam1 = sumTeam1 / 5;
         System.out.println(averageScoreTeam1);
 
-
-
         String teamName2 = scanner.nextLine();
 
         System.out.println("Player team 2: ");
@@ -86,8 +84,6 @@ public class CouterStrike {
         double averageScoreTeam2 = sumTeam2 / 5;
         System.out.println(averageScoreTeam2);
 
-
-
         if (averageScoreTeam1 > averageScoreTeam2) {
             System.out.println("Перемогла команда " + teamName1 + " набрала " + averageScoreTeam1 + " очків");
         } else if (averageScoreTeam1 < averageScoreTeam2) {
@@ -97,7 +93,3 @@ public class CouterStrike {
         }
     }
 }
-
-
-
-
