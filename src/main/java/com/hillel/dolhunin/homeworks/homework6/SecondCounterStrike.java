@@ -24,6 +24,8 @@ public class SecondCounterStrike {
                         teamCount1 += playerNumb;
                     } else {
                         System.out.println("Помилка! Будь-ласка, введіть число");
+                        scanner.nextLine();
+                        j--;
                     }
                 } else if (i == 1) {
                     if (scanner.hasNextInt()) {
@@ -31,6 +33,8 @@ public class SecondCounterStrike {
                         teamCount2 += playerNumb;
                     } else {
                         System.out.println("Помилка! Будь-ласка, введіть число");
+                        scanner.nextLine();
+                        j--;
                     }
                 }
             }

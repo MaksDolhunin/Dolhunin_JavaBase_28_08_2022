@@ -14,36 +14,41 @@ public class CouterStrike {
         String teamName1 = scanner.nextLine();
         String teamName2 = scanner.nextLine();
 
-        System.out.println("Player taem 1: ");
+        System.out.println("Player team 1: ");
         if (scanner.hasNextInt()) {
             int player1 = scanner.nextInt();
             sumTeam1 = player1;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player2 = scanner.nextInt();
             sumTeam1 = sumTeam1 + player2;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player3 = scanner.nextInt();
             sumTeam1 = sumTeam1 + player3;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player4 = scanner.nextInt();
             sumTeam1 = sumTeam1 + player4;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player5 = scanner.nextInt();
             sumTeam1 = sumTeam1 + player5;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         scanner.nextLine();
         double averageScoreTeam1 = sumTeam1 / COEF;
@@ -55,12 +60,14 @@ public class CouterStrike {
             sumTeam2 = player1;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player2 = scanner.nextInt();
             sumTeam2 = sumTeam2 + player2;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player3 = scanner.nextInt();
@@ -73,12 +80,14 @@ public class CouterStrike {
             sumTeam2 = sumTeam2 + player4;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         if (scanner.hasNextInt()) {
             int player5 = scanner.nextInt();
             sumTeam2 = sumTeam2 + player5;
         } else {
             System.out.println("Помилка! Будь-ласка, введіть число");
+            System.exit(0);
         }
         scanner.nextLine();
         double averageScoreTeam2 = sumTeam2 / COEF;
