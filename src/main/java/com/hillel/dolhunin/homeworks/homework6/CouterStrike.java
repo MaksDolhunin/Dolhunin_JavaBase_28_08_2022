@@ -12,6 +12,7 @@ public class CouterStrike {
         final double COEF = 5;
 
         String teamName1 = scanner.nextLine();
+        String teamName2 = scanner.nextLine();
 
         System.out.println("Player taem 1: ");
         if (scanner.hasNextInt()) {
@@ -47,8 +48,6 @@ public class CouterStrike {
         scanner.nextLine();
         double averageScoreTeam1 = sumTeam1 / COEF;
         System.out.println(averageScoreTeam1);
-
-        String teamName2 = scanner.nextLine();
 
         System.out.println("Player team 2: ");
         if (scanner.hasNextInt()) {
