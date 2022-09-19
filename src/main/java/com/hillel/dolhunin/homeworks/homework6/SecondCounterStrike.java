@@ -22,6 +22,7 @@ public class SecondCounterStrike {
                     if (scanner.hasNextInt()) {
                         int playerNumb = scanner.nextInt();
                         teamCount1 += playerNumb;
+                        scanner.nextLine();
                     } else {
                         System.out.println("Помилка! Будь-ласка, введіть число");
                         scanner.nextLine();
@@ -31,6 +32,7 @@ public class SecondCounterStrike {
                     if (scanner.hasNextInt()) {
                         int playerNumb = scanner.nextInt();
                         teamCount2 += playerNumb;
+                        scanner.nextLine();
                     } else {
                         System.out.println("Помилка! Будь-ласка, введіть число");
                         scanner.nextLine();
