@@ -7,7 +7,7 @@ public class Number {
 
         int unknownNumber = (int) (Math.random() * 11);
 
-        System.out.println("Починаймо гру!");
+        System.out.println("Починаймо гру! У Вас 7 спроб вгадати число");
         System.out.println("(перевіряються та рахуються в використану спробу тільки введені числа)");
 
         Scanner scanner = new Scanner(System.in);
