@@ -24,6 +24,7 @@ public class Rugby {
 
         System.out.println(Arrays.toString(team1));
         System.out.println(Arrays.toString(team2));
+
         System.out.println(ageTeam1/amountPlayer);
         System.out.println(ageTeam2/amountPlayer);
 
