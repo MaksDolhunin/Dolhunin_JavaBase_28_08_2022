@@ -8,14 +8,14 @@ public class Matrix {
         Scanner scanner = new Scanner(System.in);
 
         if (scanner.hasNextInt()) {
-            int M = scanner.nextInt();
-            int N = scanner.nextInt();
+            int m = scanner.nextInt();
+            int n = scanner.nextInt();
             scanner.nextLine();
 
-            if((M > 0) || (N > 0)) {
+            if((m > 0) || (n > 0)) {
 
-                int [][] array1 = new int[M][N];
-                int [][] array2 = new int[N][M];
+                int [][] array1 = new int[m][n];
+                int [][] array2 = new int[n][m];
 
                 for (int i = 0; i < array1.length; i++) {
                     for (int j = 0; j < array1[i].length; j++) {
