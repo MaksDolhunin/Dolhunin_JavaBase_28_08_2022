@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Matrix {
     public static void main(String[] args) {
 
+        System.out.println("Введіть два числа:");
         Scanner scanner = new Scanner(System.in);
 
         if (scanner.hasNextInt()) {
