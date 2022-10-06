@@ -37,7 +37,6 @@ public class Account {
     public String getName() {
         return name;
     }
-
     public int getBirthdayYear() {
         if(birthdayYear <= 1900) {
             birthdayYear = Integer.parseInt("Error!");
@@ -48,7 +47,6 @@ public class Account {
         }
         return birthdayYear;
     }
-
     public int getBirthdayMonth() {
         if(birthdayMonth > 0 && birthdayMonth <= 12) {
             return birthdayMonth;
@@ -57,7 +55,6 @@ public class Account {
         }
         return birthdayMonth;
     }
-
     public int getBirthdayDay() {
         if(birthdayDay > 0 && birthdayDay < 31) {
             return birthdayDay;
@@ -66,23 +63,18 @@ public class Account {
         }
         return birthdayDay;
     }
-
     public String getEmail() {
         return email;
     }
-
     public int getPhoneNumber() {
         return phoneNumber;
     }
-
     public String getSurname() {
         return surname;
     }
-
     public void setSurname(String surname) {
         this.surname = surname;
     }
-
     public int getWeight() {
         if (weight < 1) {
             weight = Integer.parseInt("Error! Вага не може бути від'ємною!");
@@ -91,11 +83,9 @@ public class Account {
         }
         return weight;
     }
-
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
     public int getPressure() {
         if (pressure < 1) {
             pressure = Integer.parseInt("Error! Здається " + name + " має проблеми");
@@ -104,11 +94,9 @@ public class Account {
         }
         return pressure;
     }
-
     public void setPressure(int pressure) {
         this.pressure = pressure;
     }
-
     public int getAmountSteps() {
         if (amountSteps < 1) {
             amountSteps = Integer.parseInt("Error!");
@@ -117,12 +105,9 @@ public class Account {
         }
         return amountSteps;
     }
-
     public void setAmountSteps(int amountSteps) {
         this.amountSteps = amountSteps;
     }
-
-
     void printAccountInfo() {
         System.out.println(
                 "User name - " + getName() + " " + "\n" +
