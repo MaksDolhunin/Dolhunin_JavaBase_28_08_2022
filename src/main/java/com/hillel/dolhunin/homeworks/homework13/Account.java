@@ -3,12 +3,12 @@ package com.hillel.dolhunin.homeworks.homework13;
 import java.util.Calendar;
 
 public class Account {
-    private String name;
-    private int birthdayDay;
-    private int birthdayMonth;
-    private int birthdayYear;
-    private String email;
-    private int phoneNumber;
+    private final String name;
+    private final int birthdayDay;
+    private final int birthdayMonth;
+    private final int birthdayYear;
+    private final String email;
+    private final long phoneNumber;
     String surname;
     int weight;
     int pressure;
@@ -38,35 +38,18 @@ public class Account {
         return name;
     }
     public int getBirthdayYear() {
-        if(birthdayYear <= 1900) {
-            birthdayYear = Integer.parseInt("Error!");
-        } else if (birthdayYear > 2022) {
-            birthdayYear = Integer.parseInt("Error!");
-        } else {
-            return birthdayYear;
-        }
         return birthdayYear;
     }
     public int getBirthdayMonth() {
-        if(birthdayMonth > 0 && birthdayMonth <= 12) {
-            return birthdayMonth;
-        } else {
-            birthdayMonth = Integer.parseInt("Error! Введіть число від 1 до 12!");
-        }
         return birthdayMonth;
     }
     public int getBirthdayDay() {
-        if(birthdayDay > 0 && birthdayDay < 31) {
-            return birthdayDay;
-        } else {
-            birthdayDay = Integer.parseInt("Error! Введіть число від 1 до 31!");
-        }
         return birthdayDay;
     }
     public String getEmail() {
         return email;
     }
-    public int getPhoneNumber() {
+    public long getPhoneNumber() {
         return phoneNumber;
     }
     public String getSurname() {
