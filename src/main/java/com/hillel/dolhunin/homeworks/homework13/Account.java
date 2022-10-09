@@ -9,10 +9,10 @@ public class Account {
     private final int birthdayYear;
     private final String email;
     private final long phoneNumber;
-    String surname;
-    int weight;
-    int pressure;
-    int amountSteps;
+    private String surname;
+    private int weight;
+    private int pressure;
+    private int amountSteps;
     private final int VALUE = 2020;
     private int age;
     public Account(String name,
