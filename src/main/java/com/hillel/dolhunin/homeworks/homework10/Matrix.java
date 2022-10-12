@@ -26,7 +26,7 @@ public class Matrix {
                 array2[i][j] = array1[j][i];
             }
         }
-        System.out.println("Second array3:");
+        System.out.println("Second array:");
         printArray(array2);
 
         scanner.close();
