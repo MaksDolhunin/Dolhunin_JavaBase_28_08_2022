@@ -1,7 +1,5 @@
 package com.hillel.dolhunin.homeworks.homework15;
 
-import java.sql.SQLOutput;
-
 public class Androids implements LinuxOS, Smartphones{
 
     private String name;
